@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS monitoring (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    monitoring_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    category VARCHAR(255),
+    status VARCHAR(255),
+    txetfilepath VARCHAR(255),
+    programpath VARCHAR(255)
+)
